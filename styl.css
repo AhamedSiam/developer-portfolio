@@ -5,28 +5,31 @@ h1{
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
 }
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
 .color{
     color: darkorange;
 }
 h3{
     font-family: 'Play', sans-serif;
 }
-section{
-    display: flex;
-    padding-bottom: 150px;
-}
+
 .type{
 
     width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .type img{
 
     width: 100%;
 }
-.type{
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 .link-button{
     text-decoration: none;
     background-image:linear-gradient(orange,tomato);
@@ -43,4 +46,42 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+#experinces-itam{
+    margin-left: 5px;
+}
+.box{
+    box-shadow: 5px 5px 30px rgb(163, 170, 170);
+    
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+.box-img{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.flex-boy{
+    display: flex;
+    padding-bottom: 150px;
+}
+#marjuk{ 
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan,);
+    border-image-slice: 1;
+    
+
+}
+#rasel{
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, cyan,);
+    border-image-slice: 1;
+    
+
 }
